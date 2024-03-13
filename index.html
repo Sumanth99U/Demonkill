@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title> My first page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="item">
+            <h1>Item 1 </h1>
+        </div>
+        <div class="item">
+            <h1>Item 2 </h1>
+        </div>
+        <div class="item">
+            <h1>Item 3</h1>
+        </div>
+        <div class="item">
+            <h1>Item 4</h1>
+        </div>
+    </div>
+</body>
+
+</html>
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    padding : 20px;
+    /**
+        TODO : Write code here to make this flex container responsive
+    **/
+}
+
+.item {
+    padding : 10px;
+    background-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    margin : 10px;
+    min-width: 200px;
+    min-height: 100px;
+    color : white;
+}
